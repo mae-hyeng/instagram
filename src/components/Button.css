@@ -1,0 +1,38 @@
+button {
+  border: none;
+  cursor: pointer;
+  border-radius: 0.8em;
+  height: 2.5em;
+  font-weight: bold;
+  font-size: 0.9em;
+}
+
+.logo {
+  background: url(../assets/instagram.png) no-repeat 100% / cover;
+  width: 4em;
+  height: 4em;
+}
+
+.login {
+  width: 6em;
+  background-color: var(--main-color);
+  color: var(--white-color);
+}
+
+.access {
+  width: 6em;
+  background-color: var(--white-color);
+  color: var(--main-color);
+}
+
+.follow {
+  width: 6em;
+}
+
+.message {
+  width: 9em;
+}
+
+.bgn {
+  background: none;
+}

@@ -1,0 +1,26 @@
+.Main {
+  margin-top: 4em;
+}
+
+.main-wrapper {
+  flex-direction: column;
+  padding: 3em 20em;
+}
+
+.main-wrapper > div {
+  display: flex;
+}
+
+.main-contents {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.info-wrapper > div {
+  margin-bottom: 1em;
+}
+
+.banner {
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 1em;
+}
