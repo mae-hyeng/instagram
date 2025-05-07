@@ -6,44 +6,41 @@ const Post = () => {
       <div className="main-contents gap-1">
         <div className="post">
           <img
-            className="img-100 objfit-c"
-            src={"./src/assets/thumbnail.png"}
+            className="img-100 objfit-cover"
+            src={"./src/assets/certificate.jpg"}
           />
         </div>
         <div className="post">
           <img
-            className="img-100 objfit-c"
-            src={"./src/assets/thumbnail.png"}
+            className="img-100 objfit-cover"
+            src={"./src/assets/coffee.jpg"}
           />
         </div>
         <div className="post">
           <img
-            className="img-100 objfit-c"
-            src={"./src/assets/thumbnail.png"}
+            className="img-100 objfit-cover"
+            src={"./src/assets/commits.jpg"}
           />
         </div>
         <div className="post">
           <img
-            className="img-100 objfit-c"
-            src={"./src/assets/thumbnail.png"}
+            className="img-100 objfit-cover"
+            src={"./src/assets/fotsal.jpg"}
+          />
+        </div>
+        <div className="post">
+          <img className="img-100 objfit-cover" src={"./src/assets/pic.jpg"} />
+        </div>
+        <div className="post">
+          <img
+            className="img-100 objfit-cover"
+            src={"./src/assets/shadow.jpg"}
           />
         </div>
         <div className="post">
           <img
-            className="img-100 objfit-c"
-            src={"./src/assets/thumbnail.png"}
-          />
-        </div>
-        <div className="post">
-          <img
-            className="img-100 objfit-c"
-            src={"./src/assets/thumbnail.png"}
-          />
-        </div>
-        <div className="post">
-          <img
-            className="img-100 objfit-c"
-            src={"./src/assets/thumbnail.png"}
+            className="img-100 objfit-cover"
+            src={"./src/assets/sight.jpg"}
           />
         </div>
       </div>

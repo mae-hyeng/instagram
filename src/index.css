@@ -86,7 +86,15 @@ p {
   font-size: 1em;
 }
 
-.objfit-c {
+.b-r-50 {
+  border-radius: 50%;
+}
+
+.objfit-contain {
+  object-fit: contain;
+}
+
+.objfit-cover {
   object-fit: cover;
   cursor: pointer;
 }

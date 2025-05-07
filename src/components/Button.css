@@ -8,9 +8,9 @@ button {
 }
 
 .logo {
-  background: url(../assets/instagram.png) no-repeat 100% / cover;
-  width: 4em;
-  height: 4em;
+  background: url(../assets/instagram-text.png) no-repeat 100% / cover;
+  width: 7em;
+  height: 3em;
 }
 
 .login {
