@@ -7,6 +7,10 @@ button {
   font-size: 0.9em;
 }
 
+button:disabled {
+  cursor: initial;
+}
+
 .logo {
   background: url(../assets/instagram-text.png) no-repeat 100% / cover;
   width: 7em;
@@ -23,6 +27,23 @@ button {
   width: 6em;
   background-color: var(--white-color);
   color: var(--main-color);
+}
+
+.access-primary {
+  font-size: 1em;
+  background-color: var(--primary-button-color);
+  color: var(--white-color);
+  opacity: 0.7;
+}
+
+.f-login {
+  font-size: 1em;
+  background-color: var(--primary-button-color);
+  color: var(--white-color);
+}
+
+.f-login:hover {
+  background-color: var(--primary-button-hover-color);
 }
 
 .follow {

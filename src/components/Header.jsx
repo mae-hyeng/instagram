@@ -7,16 +7,20 @@ const Header = () => {
 
   return (
     <div className="Header flex w-100">
-      <div className="flex-start">
+      <div className="flex-start w-100">
         <Button onClick={() => nav("/")} type={"logo"} />
       </div>
-      <div className="flex-end">
+      <div className="flex-end w-100">
         <Button
           onClick={() => nav("/login")}
           text={"로그인"}
           type={"login f-w-b"}
         />
-        <Button text={"가입하기"} type={"access f-w-b"} />
+        <Button
+          onClick={() => nav("/signup")}
+          text={"가입하기"}
+          type={"access f-w-b"}
+        />
       </div>
     </div>
   );

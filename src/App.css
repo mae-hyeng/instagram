@@ -1,7 +1,12 @@
 :root {
   --main-color: rgb(55, 170, 236);
+  --text-color: rgb(115, 115, 115);
   --white-color: rgb(255, 255, 255);
   --border-color: rgb(220, 220, 220);
+  --primary-text-color: rgb(65, 80, 247);
+  --background-color: rgb(250, 250, 250);
+  --primary-button-color: rgb(0, 149, 246);
+  --primary-button-hover-color: rgb(24, 119, 242);
 }
 
 .App {

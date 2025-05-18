@@ -4,7 +4,7 @@ import "./Info.css";
 const Info = () => {
   return (
     <div className="info-wrapper flex flex-center flex-direction-c flex1 gap-05">
-      <div className="flex gap-05 align-items-center">
+      <div className="flex gap-05 a-i-c">
         <div className="mr-1">
           <div>maehyeng</div>
         </div>
