@@ -1,0 +1,9 @@
+.bottom-wrapper,
+.bottom-wrapper a,
+.bottom-wrapper select {
+  color: var(--text-color);
+}
+
+.Bottom select {
+  border: none;
+}

@@ -1,0 +1,13 @@
+.login-wrapper {
+  border: 1px solid var(--border-color);
+  padding: 3em 3em 1em 3em;
+}
+
+.login-wrapper > div {
+  display: flex;
+  justify-content: center;
+}
+
+.login-wrapper > div:not(.f-d-r) {
+  flex-direction: column;
+}

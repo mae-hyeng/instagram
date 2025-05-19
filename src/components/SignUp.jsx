@@ -5,10 +5,10 @@ import { useRef } from "react";
 import { poeReg, passwordReg, nickNameReg } from "./../util/regExp.js";
 
 const SignUp = () => {
-  const poeRef = useRef();
-  const passwordRef = useRef();
-  const userNameRef = useRef();
-  const nickNameRef = useRef();
+  const poeRef = useRef(0);
+  const passwordRef = useRef(0);
+  const userNameRef = useRef(0);
+  const nickNameRef = useRef(0);
 
   // input태그 키입력 이벤트 및 error msg 삭제
   const onChangeInput = (e) => {
@@ -57,7 +57,7 @@ const SignUp = () => {
 
   return (
     <div className="flex flex-direction-c a-i-c p-1">
-      <div className="flex flex-direction-c m-w-27 gap-05 t-a-c">
+      <div className="flex flex-direction-c max-w-27 gap-05 t-a-c">
         <div className="wrapper">
           <div className="a-i-c h-4">
             <img className="w-13 h-13" src="src/assets/instagram-text.png" />
@@ -121,7 +121,7 @@ const SignUp = () => {
               text={"가입"}
               img={""}
               type={"access-primary"}
-              disabled={true}
+              disable={true}
             />
           </div>
         </div>

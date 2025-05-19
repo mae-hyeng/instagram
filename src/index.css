@@ -86,6 +86,10 @@ a {
   color: var(--text-color);
 }
 
+.t-c-b {
+  color: var(--ig-link-color);
+}
+
 /* margin start */
 .m-w-5 {
   margin: 0 5em;
@@ -102,11 +106,23 @@ a {
 .mr-4 {
   margin-right: 4em;
 }
+
+.m-t-1 {
+  margin-top: 1em;
+}
+
+.m-t-2 {
+  margin-top: 2em;
+}
 /* margin end */
 
 /* padding start */
 .p-1 {
   padding: 1em;
+}
+
+.p-4 {
+  padding: 4em;
 }
 
 .p-h-1 {
@@ -146,8 +162,12 @@ a {
   width: 20em;
 }
 
-.m-w-27 {
+.max-w-27 {
   max-width: 27em;
+}
+
+.min-w-27 {
+  min-width: 27em;
 }
 /* width end */
 

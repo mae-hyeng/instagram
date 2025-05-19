@@ -1,4 +1,5 @@
 export const poeReg = (value) => {
+  if (value === "") return;
   const phoneRegex = /^01[016789]-?\d{3,4}-?\d{4}$/;
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
@@ -13,14 +14,17 @@ export const poeReg = (value) => {
 };
 
 export const passwordReg = (value) => {
+  if (value === "") return;
   return value.length >= 6 ? "" : "6자 이상의 비밀번호를 만드세요.";
 };
 
 export const userNameReg = (value) => {
+  if (value === "") return;
   return value.length > 0;
 };
 
 export const nickNameReg = (value) => {
+  if (value === "") return;
   // TODO : 숫자만 입력하면 안되는 정규식 추가
   const nicknameRegex = /^[a-zA-Z0-9._]+$/;
   return nicknameRegex.test(value)

@@ -14,7 +14,6 @@ button:disabled {
 .logo {
   background: url(../assets/instagram-text.png) no-repeat 100% / cover;
   width: 7em;
-  height: 3em;
 }
 
 .login {
@@ -44,6 +43,12 @@ button:disabled {
 
 .f-login:hover {
   background-color: var(--primary-button-hover-color);
+}
+
+.f-login-no-bg {
+  font-size: 1em;
+  background-color: var(--white-color);
+  color: var(--primary-button-color);
 }
 
 .follow {
