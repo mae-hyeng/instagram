@@ -16,7 +16,7 @@ const Main = () => {
           </div>
           <Info />
         </div>
-        <div className="main-category flex-center">
+        <div className="main-category flex-center gap-1">
           <Button text={"게시물"} type={"bgn"} />
           <Button text={"릴스"} type={"bgn"} />
           <Button text={"태그됨"} type={"bgn"} />

@@ -127,7 +127,7 @@ const SignUp = () => {
         </div>
         <div className="wrapper2">
           <div>계정이 있으신가요?</div>
-          <Link to={""}>로그인</Link>
+          <Link to={"/Login"}>로그인</Link>
         </div>
         <div className="wrapper3 flex flex-direction-c gap-1 a-i-c">
           <div>앱을 다운로드하세요.</div>

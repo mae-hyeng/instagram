@@ -64,7 +64,7 @@ const Login = () => {
         <div className="wrapper2">
           <div>
             계정이 없으신가요?
-            <Link to={""}>가입하기</Link>
+            <Link to={"/signUp"}>가입하기</Link>
           </div>
         </div>
         <div className="wrapper3 flex flex-direction-c gap-1 a-i-c">
